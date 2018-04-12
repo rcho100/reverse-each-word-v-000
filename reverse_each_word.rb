@@ -8,9 +8,8 @@ def reverse_each_word(sentence)
   #   reverse_arr << word.reverse
   # end
   # reverse_arr.join(" ")
-  array.collect do |word|
+  array.collect! do |word|
     reversed_words = word.reverse
   end
-  binding.pry
 
 end
